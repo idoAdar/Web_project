@@ -1,0 +1,50 @@
+.Container {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: 100px auto;
+}
+
+.fit {
+  height: 85%;
+}
+
+.Containerimg {
+  width: 75%;
+  height: 50%;
+  margin: auto;
+}
+
+.Containerimg h3 {
+  text-align: center;
+  padding: 10px;
+  text-transform: capitalize;
+}
+
+.ProfileImg {
+  width: 100%;
+  height: 80%;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.ProfileContent {
+  width: 75%;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.ProfileContent h4 {
+  color: darkcyan;
+  text-transform: capitalize;
+}
+
+@media (max-width: 500px) {
+  .Container {
+    height: 130vh;
+    grid-template-columns: 100%;
+    margin: 100px auto;
+  }
+}

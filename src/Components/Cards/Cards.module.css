@@ -1,0 +1,37 @@
+.Grid {
+  width: 100%;
+  height: 70vh;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+
+.Gridy {
+  width: 100%;
+  height: 70vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 0 250px;
+}
+
+.mainTitle {
+  padding: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media (max-width: 500px) {
+  .Grid {
+    height: auto;
+    grid-template-columns: 100%;
+  }
+
+  .Gridy {
+    height: auto;
+    grid-template-columns: 100%;
+    padding: 0;
+  }
+
+  .mainTitle {
+    font-size: 24px;
+  }
+}
